@@ -1,0 +1,13 @@
+@each $color, $value in $theme-colors {
+  .swatch-#{$color} {
+    color: color-contrast($value);
+  }
+}
+
+.custom-element {
+  color: color-contrast(#000); // returns `color: #fff`
+}
+
+.custom-element {
+  color: color-contrast($dark); // returns `color: #fff`
+}
