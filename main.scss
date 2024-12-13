@@ -1,10 +1,20 @@
 .carousel-item{
     height:100%!important;
+
+
+}
+.card{
+    border-radius: 50px;
+}
+    
+.carousel-item{
+    // max-height:10px;
 }
 
 #image-container{
     width:100vw;    
     position: relative;
+    
 }
 
 #image-container img{
@@ -20,7 +30,16 @@
 }
 
 .carousel-container{
-    height:75vh;
+    height:75vh!important;
 }
 
-@import './node_modules/bootstrap/dist/css/bootstrap.min.css'
+iframe{
+    width:850px;
+}
+
+$border-radius: 2rem;
+$primary: red;
+ $success: #00B14F;
+
+
+@import './node_modules/bootstrap/scss/bootstrap.scss'
