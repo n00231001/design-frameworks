@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-dark text-light navbar-expand-lg" >
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient border-1 border-bottom py-3" >
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -109,7 +109,7 @@
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title">Maps</h5>
                       <p class="card-text">22 Patrick Street, Dun Laoghaire, Co. Dublin, A96CF51</p>
-                      <a href="#" style="background-color: rgb(43, 43, 43);"
+                      <a href="#map" style="background-color: rgb(43, 43, 43);"
                         class="btn bg-success text-light fw-semibold mt-auto ">Map details</a>
                         
                     </div>
@@ -123,7 +123,7 @@
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title">Grants</h5>
                       <p class="card-text">30 Sandycove Road, Sandycove, Sandycove, Co. Dublin, A96V9P1</p>
-                      <a href="#" style="background-color: rgb(43, 43, 43);"
+                      <a href="#grants" style="background-color: rgb(43, 43, 43);"
                         class="btn bg-success text-light fw-semibold mt-auto">Grant details</a>
                     </div>
                   </div>
@@ -136,7 +136,7 @@
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title">Sustainable materials</h5>
                       <p class="card-text">129 Glenageary Avenue, Dun Laoghaire, A96 N9Y6, Glenageary, Co. Dublin</p>
-                      <a href="#" style="background-color: rgb(43, 43, 43);"
+                      <a href="#materials" style="background-color: rgb(43, 43, 43);"
                         class="btn bg-success text-light fw-semibold mt-auto">material details</a>
                     </div>
                   </div>
@@ -149,14 +149,14 @@
       </div>
 
       <!--map div-->
-    <div class="container-fluid bg-dark text-light p-4 align-items-center">
+    <div class="container-fluid bg-dark text-light p-4 align-items-center bg-gradient" id="map">
       <div class="row">
         <div class="col-md-6">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18906.129712753736!2d6.722624160288201!3d60.12672284414915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463e997b1b6fc09d%3A0x6ee05405ec78a692!2sJ%C4%99zyk%20trola!5e0!3m2!1spl!2spl!4v1672239918130!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="col-md-5">
-          <h2>Map</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, assumenda a!</p></div>
+        <div class="col-md-3">
+          <h2>Discover affordable housing using our interactive map</h2>
+          <p>Use our interactive map to find accommodation which best suits your needs using our sustainability based filters, as well finding which grants can help you with your housing journey.</p></div>
       </div>
     </div>
  
@@ -164,19 +164,17 @@
  
     <div class="container ">
  
-      <div class="col-12 text-center border-top py-4">
+      <div class="col-12 text-center border-top py-4" id="grants">
          <h3>Why Choose Sustainable Living ?</h3>
        </div>
          <div class="row py-5">
         <div class="col-md-6 col-sm-12 ">
           <div class="card shadow">
-            <h4 class="resource-header text-center">Cost Savings</h4>
+            <h4 class="resource-header text-center">GreenPlus</h4>
             <div class="card-body">
-              <p class="resource-text text-center">Lower Utility Bills <br>
-                Government Incentives <br>
-                Long-term Investments <br>
-                <a href="#" style="background-color: rgb(43, 43, 43);"
-                class="btn bg-success text-light fw-semibold mt-auto">Grant details</a>
+              <p class="resource-text text-center">With new government policies on decarbonisation, rising energy costs and shifting consumer expectations, sustainability is now at the top of every business agenda. With GreenPlus, we can help your business to prepare for a greener, more sustainable future.<br>
+                <a href="form.html" style="background-color: rgb(43, 43, 43);"
+                class="btn bg-success text-light fw-semibold mt-auto">See if im applicable</a>
               </p>
             </div>
           </div>
@@ -184,13 +182,11 @@
        
         <div class="col-md-6 col-sm-12 ">
           <div class="card shadow">
-            <h4 class="resource-header text-center">Enviromental Impact</h4>
+            <h4 class="resource-header text-center">GreenStart</h4>
             <div class="card-body">
-              <p class="resource-text text-center">Lower Utility Bills <br>
-                Government Incentives <br>
-                Long-term Investments<br>
-                <a href="#" style="background-color: rgb(43, 43, 43);"
-                class="btn bg-success text-light fw-semibold mt-auto">Grant details</a>
+              <p class="resource-text text-center">Every business is now working toward a greener future by incorporating sustainable practices into their day to day operations. With Access Advice: GreenStart, we’re helping businesses to improve their environmental performance through greater resource efficiency, driving competitive advantage and reducing costs.<br>
+                <a href="form.html" style="background-color: rgb(43, 43, 43);"
+                class="btn bg-success text-light fw-semibold mt-auto">See if im applicable</a>
               </p>
             </div>
           </div>
@@ -200,13 +196,11 @@
       <div class="row mb-5">
         <div class="col-md-6 col-sm-12 ">
           <div class="card shadow">
-            <h4 class="resource-header text-center">Health Benefits</h4>
+            <h4 class="resource-header text-center">Climate action voucher </h4>
             <div class="card-body">
-              <p class="resource-text text-center">Lower Utility Bills <br>
-                Government Incentives <br>
-                Long-term Investments <br>
-                <a href="#" style="background-color: rgb(43, 43, 43);"
-                class="btn bg-success text-light fw-semibold mt-auto">Grant details</a>
+              <p class="resource-text text-center">Is your business sustainable and climate action ready? With this support, we can help your business to plan for a ‘green transformation’ by reducing emissions and becoming more resource efficient.<br>
+                <a href="form.html" style="background-color: rgb(43, 43, 43);"
+                class="btn bg-success text-light fw-semibold mt-auto">See if im applicable</a>
               </p>
             </div>
           </div>
@@ -214,13 +208,11 @@
        
         <div class="col-md-6 col-sm-12 ">
           <div class="card">
-            <h4 class="resource-header text-center">Community Support</h4>
+            <h4 class="resource-header text-center">Strategic Consultancy Assignment</h4>
             <div class="card-body">
-              <p class="resource-text text-center">Lower Utility Bills <br>
-                Government Incentives <br>
-                Long-term Investments <br>
-                <a href="#" style="background-color: rgb(43, 43, 43);"
-                class="btn bg-success text-light fw-semibold mt-auto">Grant details</a>
+              <p class="resource-text text-center">In challenging times, strategy is more important than ever. A strategy consultant can provide your business with unbiased insights to help you adapt to change, unearth new opportunities and develop a competitive advantage. <br>
+                <a href="form.html" style="background-color: rgb(43, 43, 43);"
+                class="btn bg-success text-light fw-semibold mt-auto">See if im applicable</a>
               </p>
             </div>
           </div>
@@ -230,7 +222,7 @@
 
     
       <!--materials div-->
-      <div class="container p-4 align-items-center">
+      <div class="container p-4 align-items-center" id="materials">
         <div class="row">
           <div class="col-md-6"><h2>Learn more about sustainable mateirals</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, assumenda a!</p>
@@ -252,7 +244,7 @@
     crossorigin="anonymous"></script>
 
   <!-- Footer -->
-<footer class="text-center text-lg-start bg-dark text-white theme_dark">
+<footer class="text-center text-lg-start bg-dark text-white theme_dark bg-gradient">
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
